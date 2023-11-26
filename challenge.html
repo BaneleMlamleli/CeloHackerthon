@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style>
-        /* Custom CSS for navigation selection */
-        .navbar-nav .nav-item.active .nav-link {
-            color: #fff !important;
-            background-color: #007bff;
-        }
-    </style>
+    <link rel="stylesheet" href="./style/style.css">
     <title>Education trivia</title>
 </head>
 <body>
@@ -43,7 +37,7 @@
 </nav>
 
 <!-- Jumbotron -->
-<div class="jumbotron">
+<div class="jumbotron jumbotron_background">
     <div class="container">
         <h1 class="display-4">Welcome to Education Trivia!</h1>
         <p class="lead">Educational Trivia dApp built on MiniPay. </p>
@@ -52,6 +46,24 @@
         <p>Feel free to explore quizzes and challenges to win big prizes.</p>
     </div>
 </div>
+
+<!-- Progress bar for all completed exercises -->
+<div class="page_border">
+
+    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%"></div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info" style="width: 50%"></div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning" style="width: 75%"></div>
+      </div>
+      <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-danger" style="width: 100%"></div>
+      </div>  
+</div>
+
 
 <h3>CHALLENGE PAGE</h3>
 
